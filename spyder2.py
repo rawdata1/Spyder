@@ -27,7 +27,7 @@ if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
 # Starting URL
-base_url = "https://lhohq.info/"
+base_url = "https://lhohq.info/" # Weird site, replace by whatever you want to analyse
 driver.set_page_load_timeout(30)
 
 # Function to get all text from the current page, including hidden elements
